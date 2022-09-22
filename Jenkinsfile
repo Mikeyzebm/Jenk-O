@@ -7,7 +7,7 @@ pipeline {
         sh 'echo "This Compiled"'
       }  
     }
-    stage (Build) {
+    stage (Builderr) {
       steps {
         echo "Building 1"
 	echo "Building 2"
